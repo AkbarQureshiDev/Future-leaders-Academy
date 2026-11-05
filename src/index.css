@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-[#081120] text-slate-100 antialiased font-sans;
+    overflow-x: hidden;
+  }
+}
+
+/* Outfit variable font for hero heading */
+.font-outfit {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
